@@ -1,0 +1,23 @@
+{
+  "name": "product-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass style.scss style.css",
+    "watch": "sass --watch style.scss style.css --poll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patsouza/preview-card.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patsouza/preview-card/issues"
+  },
+  "homepage": "https://github.com/patsouza/preview-card#readme",
+  "devDependencies": {
+    "sass": "^1.86.3"
+  }
+}
