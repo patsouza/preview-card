@@ -18,7 +18,7 @@ body {
   .card .card-box {
     border-radius: 7px;
     background-color: white;
-    max-width: 250px;
+    max-width: 300px;
   }
   .card .card-box .image-mobile {
     width: 100%;
