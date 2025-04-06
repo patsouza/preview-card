@@ -2,12 +2,18 @@ $primary-color: hsl(158, 42%, 18%);
 $second-color: hsl(158, 36%, 37%);
 $gray: hsl(228, 12%, 48%);
 
+
 body {
   background-color: hsl(30, 38%, 92%);
   font-family: "Montserrat";
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -17,15 +23,10 @@ body {
       margin: 0;
     }
     margin: 0;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     .card-box {
       border-radius: 7px;
       background-color: white;
       max-width: 250px;
-
       .image-mobile {
         width: 100%;
         border-radius: 7px 7px 0 0;
