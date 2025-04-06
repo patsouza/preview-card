@@ -9,6 +9,7 @@ body {
 @media screen and (max-width: 768px) {
   .card {
     margin: 0;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +24,7 @@ body {
   }
   .card .card-box .image-mobile {
     width: 100%;
+    border-radius: 7px 7px 0 0;
   }
   .card .card-box .content {
     padding: 1rem;
