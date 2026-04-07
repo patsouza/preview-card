@@ -8,11 +8,11 @@ body {
   font-family: "Montserrat";
   margin: 0;
   padding: 0;
-  height: 100vh;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 
 * {
@@ -24,17 +24,26 @@ body {
       border-radius: 7px;
       background-color: white;
       max-width: 300px;
-      
+      display: flex;
+      flex-direction: column;
+      @media (min-width: 600px) { 
+      max-width: 500px; 
+      flex-direction: row;
+    }
       .image-mobile {
         width: 100%;
         border-radius: 7px 7px 0 0;
+        @media (min-width: 600px) { 
+          height: 100%;
+          border-radius: 7px 0 0 7px;
+    }
       }
 
       .content {
         padding: 1rem;
 
         .subtitle {
-          letter-spacing: 2px;
+          letter-spacing: 4px;
           color: $gray;
           font-size: 10px;
           font-weight: 500;
@@ -96,3 +105,4 @@ body {
       }
     }
   }
+
