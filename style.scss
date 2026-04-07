@@ -40,7 +40,7 @@ body {
       }
 
       .content {
-        padding: 1rem;
+        margin: 1rem;
 
         .subtitle {
           letter-spacing: 4px;
@@ -102,6 +102,10 @@ body {
         .shopping-cart {
           width: 1.5em;
         }
+      }
+
+      button:hover {
+        background-color: $primary-color;
       }
     }
   }

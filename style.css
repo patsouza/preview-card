@@ -38,7 +38,7 @@ body {
   }
 }
 .card .card-box .content {
-  padding: 1rem;
+  margin: 1rem;
 }
 .card .card-box .content .subtitle {
   letter-spacing: 4px;
@@ -93,4 +93,7 @@ body {
 }
 .card .card-box button .shopping-cart {
   width: 1.5em;
+}
+.card .card-box button:hover {
+  background-color: hsl(158, 42%, 18%);
 }/*# sourceMappingURL=style.css.map */
